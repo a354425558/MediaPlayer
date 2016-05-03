@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">播放器设计</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_content_play">ContentPlayActivity</string>
+    <string name="title_activity_start">StartActivity</string>
+
+        <string name="radiobutton1">推荐</string>
+         <string name="radiobutton2">导航</string>
+          <string name="radiobutton3">我的</string>
+           <string name="radiobutton4">本地</string>
+        
+</resources>

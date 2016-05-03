@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+ <com.graduation.design.client.widgets.TitleBarView
+    android:id="@+id/title_navigate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:gravity="center"
+      /> 
+    <FrameLayout
+        android:id="@+id/id_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            style="@style/radioStyle"
+            android:text="@string/radiobutton1"
+            android:drawableTop="@drawable/selector_button_home"
+            />
+
+        <RadioButton
+             android:id="@+id/radio2"
+             style="@style/radioStyle"
+             android:text="@string/radiobutton2"
+                 android:drawableTop="@drawable/selector_button_navigate"
+             />
+
+        <RadioButton
+             android:id="@+id/radio3"
+             style="@style/radioStyle"
+            android:text="@string/radiobutton3"
+                android:drawableTop="@drawable/selector_button_myset"
+             />
+
+        <RadioButton
+             android:id="@+id/radio4"
+           style="@style/radioStyle"
+             android:text="@string/radiobutton4"
+                 android:drawableTop="@drawable/selector_button_ship"
+             />
+    </RadioGroup>
+
+</LinearLayout>
